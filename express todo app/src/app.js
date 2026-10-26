@@ -1,4 +1,4 @@
-// create server  9jK9kO1XGBFyFJbT
+// create server  
 
 const express = require("express")
 const noteModel = require("./models/note.model")
