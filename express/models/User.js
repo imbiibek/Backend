@@ -4,7 +4,7 @@ const userSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      required: [true, "Name is required"],
+      required: [true, "Name is Required"],
       trim: true,
     },
     email: {
@@ -16,7 +16,7 @@ const userSchema = new mongoose.Schema(
     },
     number: {
       type: String,
-      match: [/^\d{10}$/, "Invalid phone number"],
+      match: [/^\d{10}$/, "Phone number is Invalid "],
     },
   },
   { timestamps: true }
